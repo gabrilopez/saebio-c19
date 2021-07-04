@@ -1,0 +1,9 @@
+[submodule "saebio-metabase"]
+	path = saebio-metabase
+	url = https://github.com/gabrilopez/saebio-metabase
+[submodule "saebio-ui"]
+	path = saebio-ui
+	url = https://github.com/gabrilopez/saebio-ui
+[submodule "saebio-api"]
+	path = saebio-api
+	url = https://github.com/gabrilopez/saebio-api
