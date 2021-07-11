@@ -23,7 +23,7 @@ node -v
 It is also possible to use the project with supported **OpenJDK** distributions available at https://adoptopenjdk.net/releases.html. Any Java 8+ supported version should work.
 
 
-## Configuration
+## Further configuration
 ### Altering the number of days used in episode computation
 The number of days considered for episode calculation can be altered from the `saebio-macOS.command` and `saebio-windows.bat` files. Specifically, the `-e` numeric option. The default configuration uses `-e 90` for these operations.
 ### Running Metabase on another port
