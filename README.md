@@ -1,5 +1,5 @@
 # saebio-covid19-project
-This is the Degree Final Project `sæbio: development of a dashboard for the multidimensional analysis of COVID-19`, which analyses multidimensionally the SARS-CoV-2 detection tests taken in the Hospital Universitario de Gran Canaria Doctor Negrín.
+This is the main repository of the Degree Final Project `sæbio: development of a dashboard for the multidimensional analysis of COVID-19`, which analyses multidimensionally the SARS-CoV-2 detection tests taken in the Hospital Universitario de Gran Canaria Doctor Negrín.
 # Configuration
 ## Minimum requirements
 - **Node version 8.9 or above (v10+ recommended)**. Check you have npm and Node installed on your device by using:
