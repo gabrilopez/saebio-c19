@@ -1,5 +1,11 @@
 # saebio-covid19-project
 This is the main repository of the Degree Final Project `sæbio: development of a dashboard for the multidimensional analysis of COVID-19`, which analyses multidimensionally the SARS-CoV-2 detection tests taken in the Hospital Universitario de Gran Canaria Doctor Negrín.
+
+These the created project modules:
+- [GUI module](https://github.com/gabrilopez/saebio-c19-ui)
+- [REST API module](https://github.com/gabrilopez/saebio-c19-api)
+- [Metabase analysis module](https://github.com/gabrilopez/saebio-c19-metabase)
+
 # Configuration
 ## Minimum requirements
 - **Node version 8.9 or above (v10+ recommended)**. Check you have npm and Node installed on your device by using:
@@ -23,12 +29,12 @@ The number of days considered for episode calculation can be altered from the `s
 ### Running Metabase on another port
 It is possible to customize Metabase Jetty webserver by following the steps described in https://www.metabase.com/docs/latest/operations-guide/customizing-jetty-webserver.html. 
 
-You will also need to change the port of the environment variable *VUE_APP_METABASE_SITE_URL*  created in the `.env` file located in the [saebio-ui](https://github.com/gabrilopez/saebio-ui) project and build it again using `npm run build`. Then, replace the current `dist` folder located under the `saebio-ui` module folder with the one generated.
+You will also need to change the port of the environment variable *VUE_APP_METABASE_SITE_URL*  created in the `.env` file located in the [saebio-ui](https://github.com/gabrilopez/saebio-c19-ui) project and build it again using `npm run build`. Then, replace the current `dist` folder located under the `saebio-ui` module folder with the one generated.
 
 ### Running the Java Spark API on another port
 The port used by the Java Spark API module can be changed from the `saebio-macOS.command` and `saebio-windows.bat` files.
 
-You will also need to change the port of the environment variable *VUE_APP_API_HOST_URL* created in the `.env` file located in the [saebio-ui](https://github.com/gabrilopez/saebio-ui) project and build it again using `npm run build`. Then, replace the current `dist` folder located under the `saebio-ui` module folder with the one generated.
+You will also need to change the port of the environment variable *VUE_APP_API_HOST_URL* created in the `.env` file located in the [saebio-ui](https://github.com/gabrilopez/saebio-c19-ui) project and build it again using `npm run build`. Then, replace the current `dist` folder located under the `saebio-ui` module folder with the one generated.
 
 ### Running the Vue.js module on another port
 The port where the user interface runs can be configured by opening the `server.js` file under the `saebio-ui` module and modifying the `port` variable. This change will automatically be applied the next time the application is launched. 
